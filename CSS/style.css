@@ -1,0 +1,55 @@
+.pseudotable {
+  width:100%;
+  border-collapse: collapse;
+  border-color: black;
+  font-size:20px;
+}
+
+.class3 {
+	
+}
+
+td {
+   text-align: center;
+    padding: 8px;
+       }
+	   
+	   tr:nth-child(odd)  {
+    background-color:#f5f5f5;
+	  }
+    th {
+        padding: 8px;
+		background-color:#ee82ee;
+	  }	
+	  
+.beach::first-line {
+	color: #ff0000;
+}
+
+.beach1::first-letter {
+	color: blue;
+}
+.class3::before {
+   content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBHlUilEH_jTpo_GSHNimy_4AyTP7z22EdAILALhIKww&s');
+   
+}
+
+.class4::after {
+   content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwYmX039RNcZeRTIs6xCEa-oKDiVQoRpecBopxYBH2sTvhMeZnvcs-R5h0v-G79wx6lm0&usqp=CAU');
+}
+.class4:focus {
+   color:red;
+   
+   border:5px soli  d black;
+   
+}
+.smlink:hover {
+	transform:scale(1.8);
+
+a:visited {
+	  color: pink;
+}
+.link:link {
+	color:aqua;
+	
+}
